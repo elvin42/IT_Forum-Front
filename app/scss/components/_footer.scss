@@ -1,0 +1,42 @@
+/*
+   From here you can add your footer style.
+   -----
+*/
+footer{
+   margin-top: 15px;
+   background-color: #fff;
+   border: 2px solid transparent;
+   border-top-color: #cec8c8;
+}
+.footer{
+   display: flex;
+
+
+   height: 60px;
+   
+   &-left{
+      margin: auto;
+      margin-left: 0;
+      p{
+         margin: auto;
+      }
+   }
+
+   &-right{
+      margin: auto;
+      margin-right: 0;
+      ul{
+         display: flex;
+         margin: auto;
+         li{
+            
+            list-style-type: none;
+            margin-left: 20px;
+            a{
+               text-decoration:none;
+               color: #2e2e2e;
+            }
+         }
+      }
+   }
+}
